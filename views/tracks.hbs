@@ -1,0 +1,10 @@
+
+{{#each albumTracks}}
+<h4>Title</h4>
+<p>{{this.name}}</p>
+<audio controls>
+  <source src="{{this.preview_url}}">
+  Your browser does not support the audio element.
+</audio>
+
+{{/each}}
